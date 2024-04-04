@@ -1,0 +1,18 @@
+.interests-list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+}
+.interests-icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.interests-name{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}

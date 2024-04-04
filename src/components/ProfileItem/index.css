@@ -1,0 +1,31 @@
+.profile-list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px #EDEDED;
+    background-color: #FFFFFF;
+    margin: 10px 0px 10px 0px;
+    box-shadow: 2px 2px 2px 2px  #F8F9F8;
+}
+.profile-icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+.profile-status{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-left: 10px;
+    padding: 20px;
+}
+.profile-additional-status{
+    color: #777777;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
