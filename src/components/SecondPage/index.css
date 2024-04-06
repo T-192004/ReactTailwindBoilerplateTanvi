@@ -1,69 +1,68 @@
 .second-page-container{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 80%;
+    background-size: cover;
     background-color: #FDFDFD;
 }
 .page-progress{
-    width: 100%;
+    max-width: 90%;
     height: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 4px;
 }
 .progress2{
     background-color: #1DA081;
-    height: 5px;
-    width: 30%;
+    height: 3px;
+    width: 20%;
+    border:none ;
+    border-left: solid 1px #E6E6E6;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 .no-progress2{
     background-color: #E6E6E6;
     position: relative;
-    width: 70%;
-    height: 5px;
+    width: 80%;
+    height: 3px;
+    border: none;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-    
 }
 .second-page-content{
-    color: black;
-    font-size: 44px;
-    font-weight: 700;
-    font-family: 'Roboto';
+    margin-top: 40px;
+    font-family: "Gill Sans", sans-serif;
     text-align: center;
-    padding: 40px;
+}
+.second-page-title{
+    font-size: 40px;
+    color: black;
 }
 .second-page-description{
     color: #777777;
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Roboto';
-    text-align: center;
-    margin-top: 10px;
 }
 .second-page-profile-list{
     list-style: none;
-    text-align: left;
-    padding: 20px;
 }
 .continue-btn{
     background-color: #000000;
-    padding: 20px;
-    width: 190px;
+    padding: 10px;
+    width: 150px;
     text-align: center;
     height: 80px;
     border-radius: 8px;
     font-size: 20px;
     font-family: 'Roboto';
-    font-weight: 500;
+    font-weight: 400;
     color: #FFFFFF;
+    align-self: center;
 }
 .clicked-btn{
     background-color: #E5E5E5;

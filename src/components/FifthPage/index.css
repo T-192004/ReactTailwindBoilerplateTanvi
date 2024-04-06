@@ -1,4 +1,4 @@
-.first-page-container{
+.fifth-page-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,48 +8,71 @@
     background-color: #FDFDFD;
 }
 .page-progress{
-    max-width: 90%;
+    width: 90%;
     height: 5px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
-.progress1{
+.progress5{
     background-color: #1DA081;
-    height: 3px;
-    width: 10%;
-    border:none ;
+    height: 5px;
+    width: 100%;
+    border: none;
     border-left: solid 1px #E6E6E6;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
-.no-progress1{
+.no-progress5{
     background-color: #E6E6E6;
     position: relative;
-    width: 90%;
-    height: 3px;
+    width: 0%;
+    height: 5px;
     border: none;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
+    
 }
-.first-page-content{
-    font-family: "Gill Sans", sans-serif;
-    text-align: center;
-    margin-top: 40px;
+.fifth-page-content{
+    padding: 8px;
+    width: 80%;
+    margin-top: 80px;
+    display: flex;
+    position: relative;
+    top: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
-.first-page-title{
+.fifth-page-main-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin: 30px 0px 30px 0px;
+}
+.card-title{
+    color: #1E1E1E;
     font-size: 40px;
-    color: #000000;
+    font-weight: 700;
 }
-.first-page-description{
-    color: #777777;
-    font-size: 20px;
+.card-paragraph{
+    color: #606060;
+    font-size: 22px;
+    font-style: italic;
     font-weight: 400;
 }
-.first-page-profile-list{
-    list-style: none;
+.fifth-page-image{
+    width: 30%;
+    height: 70%;
+}
+.card-rating-image{
+    width: 70%;
+    height: 110px;
 }
 .continue-btn{
     background-color: #000000;
@@ -57,6 +80,7 @@
     width: 150px;
     text-align: center;
     height: 80px;
+    margin-top: 50px;
     border-radius: 8px;
     font-size: 20px;
     font-family: 'Roboto';

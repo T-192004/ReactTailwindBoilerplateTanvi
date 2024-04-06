@@ -1,0 +1,42 @@
+.program-list-item{
+    display: flex;
+    max-width: 400px;
+    height: 240px;
+    border: solid 2px #EDEDED;
+    background-color: #F6F6F6;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 15px 0px 15px 0px;
+}
+.description{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 8px;
+    margin-left: 10px;
+}
+.title{
+    font-weight: bold;
+}
+.popular{
+    background-color: gold;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    width: 130px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transform: rotateX('-50%');
+}
+.program-logo{
+    width: 120px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}

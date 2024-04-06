@@ -1,0 +1,28 @@
+.seventh-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    background-size: cover;
+    background-color: #FDFDFD;
+}
+.seventh-page-title{
+    color: #1E1E1E;
+    font-size: 40px;
+    font-weight: 700;
+}
+.seventh-page-description{
+    color: #606060;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+}
+.program-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+}

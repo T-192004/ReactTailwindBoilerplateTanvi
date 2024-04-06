@@ -1,0 +1,25 @@
+.sixth-page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-size: cover;
+    background-color: #FDFDFD;
+    height: 90vh;
+    text-align: center;
+}
+.link-item{
+    text-emphasis: none;
+    text-decoration: none;
+}
+.sixth-page-title{
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    max-width: 40%;
+}
+.loading-ring{
+    width: 200px;
+    height: 20%;
+}
