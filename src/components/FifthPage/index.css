@@ -91,3 +91,41 @@
 .clicked-btn{
     background-color: #E5E5E5;
 }
+@media screen and (max-width: 412px){
+    .fifth-page-content{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .fifth-page-main-content{
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .card-title{
+        color: #1E1E1E;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .card-paragraph{
+        color: #606060;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    .fifth-page-image{
+        width: 30%;
+        height: 70%;
+    }
+    .card-rating-image{
+        width: 70%;
+        height: 110px;
+    }
+    .continue-btn{
+        width: 150px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+}

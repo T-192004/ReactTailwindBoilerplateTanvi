@@ -1,30 +1,51 @@
 
-.interests-list-item{
-    width: 100%;
-}
-.interests-list-item-btn{
-    display: flex;
-    width: 100%;
-    border: solid 2px #EDEDED;
-    background-color: #FFFFFF;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px;
-    border-radius: 10px;
-    margin: 15px 0px 15px 0px;
-}
-.interests-icon{
-    width: 60px;
-    height: 60px;
-    margin-right: 20px;
-}
-.interests-name{
-    color: #000000;
-    font-size: 20px;
-    font-family: 'Roboto';
-    font-weight: 400;
-}
-.clicked{
-    border: solid 2px gold;
-    box-shadow: 6px 6px 6px 6px #777777;
+    .interests-list-item{
+        width: 100%;
+    }
+    .interests-list-item{
+        display: flex;
+        width: 100%;
+        border: solid 2px #EDEDED;
+        background-color: #FFFFFF;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px;
+        border-radius: 10px;
+        margin: 15px 0px 15px 0px;
+    }
+    .interests-icon{
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+    .interests-name{
+        color: #000000;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .clicked{
+        border: solid 2px gold;
+        box-shadow: 6px 6px 6px 6px #777777;
+    }
+    @media screen and (max-width: 412px){
+    .interests-list-item{
+        display: flex;
+        width: 100%;
+        border: solid 2px #EDEDED;
+        background-color: #FFFFFF;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px;
+        border-radius: 10px;
+        margin: 15px 0px 15px 0px;
+    }
+    .interests-icon{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .interests-name{
+        font-size: 16px;
+        text-align: left;
+    }
 }

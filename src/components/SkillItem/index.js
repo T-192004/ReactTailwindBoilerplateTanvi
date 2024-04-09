@@ -9,11 +9,9 @@ const SkillItem = props => {
         getTheInterestsClickedItem(id)
     }
     return (
-        <li className='interests-list-item'>
-            <button className={`interests-list-item-btn ${clickedBtnClass}`} onClick={onClickTheInterestsListItem}>
-               <img className='interests-icon' src={interestsIcon} alt='interests icon' />
-               <p className='interests-name'>{interestsName}</p>
-             </button>
+        <li className={`interests-list-item ${clickedBtnClass}`} onClick={onClickTheInterestsListItem}>
+            <img className='interests-icon' src={interestsIcon} alt='interests icon' />
+           <p className='interests-name'>{interestsName}</p>
         </li>
     ) 
 }

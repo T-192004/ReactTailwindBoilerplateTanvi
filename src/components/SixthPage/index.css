@@ -6,7 +6,7 @@
     padding: 20px;
     background-size: cover;
     background-color: #FDFDFD;
-    height: 90vh;
+    min-height: 100vh;
     text-align: center;
 }
 .link-item{
@@ -22,4 +22,16 @@
 .loading-ring{
     width: 200px;
     height: 20%;
+}
+@media screen and (max-width: 412px){
+    .sixth-page-title{
+        color: #000;
+        font-size: 20px;
+        font-weight: bold;
+        max-width: 100%;
+    }
+    .loading-ring{
+        width: 220px;
+        height: 30%;
+    }
 }

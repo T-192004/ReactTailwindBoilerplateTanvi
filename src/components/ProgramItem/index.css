@@ -1,7 +1,7 @@
 .program-list-item{
     display: flex;
     max-width: 400px;
-    height: 240px;
+    min-height: 240px;
     border: solid 2px #EDEDED;
     background-color: #F6F6F6;
     flex-direction: column;
@@ -9,7 +9,7 @@
     align-items: center;
     padding: 8px;
     border-radius: 10px;
-    margin: 15px 0px 15px 0px;
+    margin: 15px ;
 }
 .description{
     color: #000000;
@@ -35,8 +35,24 @@
 }
 .program-logo{
     width: 120px;
+    height: 120px;
 }
 .content{
     display: flex;
     flex-direction: row;
 }
+@media screen and (max-width: 412px) {
+    .program-list-item{
+        max-width: 350px;
+        min-height: 240px;
+        margin-top: 10px ;
+    }
+    .description{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .program-logo{
+        width: 80px;
+        height: 80px;
+    }
+  }

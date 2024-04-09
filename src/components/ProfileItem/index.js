@@ -9,12 +9,13 @@ const ProfileItem = props => {
         getTheClickedListProfile(id)
     }
     return (
-        <li className='profile-list-item'>
-            <button className={`profile-list-item-btn ${clickedBtnClass}`} onClick={buttonItemClicked}>
-                <img className='profile-icon' src={profileIconUrl} alt='profile icon' />
+        <li className={`profile-list-item ${clickedBtnClass}`} onClick={buttonItemClicked}>
+            <img className='profile-icon' src={profileIconUrl} alt='profile icon' />
+            <div className='profile-content'>
                 <p className='profile-status'>{status}</p>
                 <p className='profile-additional-status'>{isAdditionalStatus}</p>
-            </button>
+            </div>
+                
         </li>
     ) 
 }

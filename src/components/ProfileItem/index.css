@@ -18,7 +18,12 @@
     font-family: 'Roboto';
     font-weight: 400;
 }
-.profile-list-item-btn{
+.profile-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile-list-item{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -34,4 +39,20 @@
 .clicked{
     border: solid 2px gold;
     box-shadow: 6px 6px 6px 6px #777777;
+}
+@media screen and (max-width: 412px) {   
+    .profile-icon{
+        width: 30px;
+        height: 30px;
+        margin-left: 4px;
+    }
+    .profile-list-item{
+        margin: 0px;
+        margin-top: 10px;
+    }
+    .clicked{
+        border: solid 2px gold;
+        box-shadow: 6px 6px 6px 6px #777777;
+    }
+
 }

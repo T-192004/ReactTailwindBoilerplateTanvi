@@ -56,14 +56,12 @@
     color: #1E1E1E;
     font-size: 36px;
     font-weight: 500;
-    font-family: 'Roboto';
 }
 .card-paragraph{
     color: #606060;
     font-size: 16px;
     max-width: 470px;
     flex-wrap: wrap;
-    font-family: 'Roboto';
     font-weight: 400;
 }
 .third-page-image{
@@ -85,4 +83,36 @@
 }
 .clicked-btn{
     background-color: #E5E5E5;
+}
+
+@media screen and (max-width: 412px){
+    .third-page-container{
+        padding: 10px;
+    }
+    .third-page-content{
+        margin-top: 20px;
+    }
+    .third-page-main-content{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .card-title{
+        font-size: 28px;
+    }
+    .card-paragraph{
+        font-size: 14px;
+        max-width: 360px;
+    }
+    .third-page-image{
+        width: 50%;
+        height: 50%;
+    }
+    .continue-btn{
+        padding: 8px;
+        width: 100px;
+        height: 50px;
+        font-size: 16px;
+    }
 }
